@@ -4,8 +4,8 @@ const { getSignedUrl } = require('@aws-sdk/s3-request-presigner')
 const s3Client = new S3Client({
     region: "eu-north-1",
     credentials:{
-        accessKeyId: "AKIA3M6VGTQ32W2SV5IK",
-        secretAccessKey: "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"
+        accessKeyId: "*************",
+        secretAccessKey: "********************""
     }
 })
 
